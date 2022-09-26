@@ -69,7 +69,7 @@ body {
 }
 
 .container {
-  max-width: 480px;
+  width: 100%;
   padding-top: 40px;
 }
 
@@ -156,22 +156,21 @@ img {
 }
 
 /*Main*/
-
 @media (min-width:780px) {
   header {
     width: 100%;
   }
-  .container{
+  .row {
     display: flex;
     flex-wrap: wrap;
 
   }
-  .container .card:first-child {
-    width: 66%;
+  .row .card:first-child {
+    width: 70%;
   }
 
-  .container .card {
-    width: 33%;
+  .row .card .little-card {
+    width: 30%;
 
   }
 
